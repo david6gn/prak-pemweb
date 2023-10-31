@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Tugas4</title>
+        <script>
+            function hitungGanjilGenap() {
+                angka = document.getElementById("angka").value;
+                ganjil = 0
+                genap = 0
+                for (i = 1; i<=angka; i++) {
+                    if (i%2 == 0) {
+                        genap++;
+                    } else {
+                        ganjil++;
+                    }
+                }
+
+                document.getElementById("ganjil").innerHTML = ganjil
+                document.getElementById("genap").innerHTML = genap
+}
+        </script>
+    </head>
+
+    <body>
+        <h1>Menghitung Bilangan Ganjil dan Genap</h1>
+        <p>Masukan Bilangan positif:</p> <br>
+        <label for="angka">
+            <input type="number" id="angka">
+        </label>
+        <button onclick="hitungGanjilGenap()">Hitung</button>
+        <p>Jumlah bilangan ganjil : <span id="ganjil"></span></p>
+        <p> Jumlah bilangan genap : <span id="genap"></span> </p>
+    </body>
+</html>
