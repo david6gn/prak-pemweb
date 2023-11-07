@@ -1,0 +1,95 @@
+/* 
+David Gunawan
+121140062
+Praktikum Pemweb RB  
+*/
+
+html {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(80, 80, 80);
+}
+
+.container-calc {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    padding: 15px;
+    background-color: rgb(33, 36, 36);
+}
+
+.container-input {
+    display: block;
+    width: 100%;
+    height: 60px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(135, 135, 135);
+    margin-bottom: 20px;
+}
+
+.container-input p {
+    margin: 10px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+.containerbutton {
+    display: flex;
+    flex-direction: row;
+}
+
+.containeroperasi {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-op {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.containerdelete {
+    display: flex;
+    flex-direction: column;
+}
+
+.numstyle {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(28, 28, 26);
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: xx-large;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.numstyles {
+    width: 150px;
+    height: 70px;
+    background-color: rgb(28, 28, 26);
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: xx-large;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.delstyle {
+    width: 140px;
+    height: 150px;
+    background-color: rgb(28, 28, 26);
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: xx-large;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
