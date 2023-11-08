@@ -1,0 +1,56 @@
+<!-- 
+David Gunawan
+121140062
+Praktikum Pemweb RB 
+-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Kalkulator sederhana</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <h1>Kalkulator Sederhana</h1>
+        <div class="container-calc">
+            <div class="container-input">
+                <p id="input"></p>
+            </div>
+            <div class="containerbutton">
+                <div class="containeroperasi">
+                    <div class="container-op">
+                        <button onclick="addangka(7)" class="numstyle">7</button>
+                        <button onclick="addangka(8)" class="numstyle">8</button>
+                        <button onclick="addangka(9)" class="numstyle">9</button>    
+                        <button id="bagi" onclick="addoperasi('÷')" class="numstyle">÷</button>            
+                    </div>
+                    <div class="container-op">
+                        <button onclick="addangka(4)" class="numstyle">4</button>
+                        <button onclick="addangka(5)" class="numstyle">5</button>
+                        <button onclick="addangka(6)" class="numstyle">6</button>
+                        <button id="kali" onclick="addoperasi('x')" class="numstyle">x</button>             
+                    </div>
+                    <div class="container-op">
+                        <button onclick="addangka(1)" class="numstyle">1</button>
+                        <button onclick="addangka(2)" class="numstyle">2</button>
+                        <button onclick="addangka(3)" class="numstyle">3</button>
+                        <button id="kurang" onclick="addoperasi('-')" class="numstyle">-</button>        
+                    </div>
+                    <div class="container-op">
+                        <button onclick="addangka(0)" class="numstyle">0</button>
+                        <button onclick="addangka('.')" class="numstyle">.</button>
+                        <button onclick="hitung()" class="numstyle">=</button>     
+                        <button id="tambah" onclick="addoperasi('+')" class="numstyle">+</button>   
+                    </div>
+                </div>
+                <div class="containerdelete">
+                    <button onclick="clearinput()" class="delstyle">Clear</button>
+                    <button onclick="deleteangka()" class="delstyle">Delete</button>
+                </div>
+            </div>
+        </div>
+        <script src="kalkulator.js"></script>
+    </body>
+</html>
